@@ -1,5 +1,3 @@
-const resolve = require('./resolve.js')
-
 module.exports = {
   root: true,
   env: {
@@ -29,28 +27,38 @@ module.exports = {
         peerDependencies: false,
       },
     ],
-    'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        vue: 'never',
-        js: 'never',
-        ts: 'never'
-      },
-    ],
-    semi: ['error', 'never']
+    semi: ['error', 'never'],
+    // 'import/extensions': [
+    //   'error',
+    //   'always',
+    //   {
+    //     js: 'never',
+    //     mjs: 'never',
+    //     jsx: 'never',
+    //     ts: 'never',
+    //     tsx: 'never',
+    //   },
+    // ],
   },
   settings: {
-    'import/resolver': {
-      node: {
-        paths: ['src'],
-      },
-      webpack: {
-        config: {
-          resolve,
-        }
-      },
-    },
+    /**
+     * https://github.com/vuejs/eslint-config-airbnb/blob/master/index.js
+     * vue-cli4 airbnb 的 eslint 就默认配置了，按照推荐 .vue 文件后缀还是写上吧
+     * 错误提示语：TS2307: Cannot find module '@/components/HelloWorld' or its corresponding type declarations.
+     * 看错误提示意思是 typescript 编译器识别不了 .vue 后缀的文件
+    */
+
+    // 'import/resolver': {
+    //   webpack: {
+    //     config: require.resolve('@vue/cli-service/webpack.config.js')
+    //   }
+    // },
+    // 'import/extensions': [
+    //   '.js',
+    //   '.jsx',
+    //   '.mjs',
+    //   '.ts',
+    //   '.tsx',
+    // ],
   },
-  // https://www.freesion.com/article/35251244752/ 解决 settings 配置别名
 };
