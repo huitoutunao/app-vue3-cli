@@ -9,6 +9,9 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     '@vue/airbnb',
     '@vue/typescript/recommended',
+    '@vue/prettier',
+    '@vue/eslint-config-typescript',
+    '@vue/eslint-config-prettier',
   ],
   parserOptions: {
     parser: '@typescript-eslint/parser',
@@ -46,8 +49,7 @@ module.exports = {
      * vue-cli4 airbnb 的 eslint 就默认配置了，按照推荐 .vue 文件后缀还是写上吧
      * 错误提示语：TS2307: Cannot find module '@/components/HelloWorld' or its corresponding type declarations.
      * 看错误提示意思是 typescript 编译器识别不了 .vue 后缀的文件
-    */
-
+     */
     // 'import/resolver': {
     //   webpack: {
     //     config: require.resolve('@vue/cli-service/webpack.config.js')
@@ -61,4 +63,4 @@ module.exports = {
     //   '.tsx',
     // ],
   },
-};
+}
