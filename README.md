@@ -1,4 +1,4 @@
-# app_vue_cli
+# app-vue3-cli
 
 通过 `@vue/cli4` 初始 `vue3 + ts` 项目模板。
 
