@@ -1,9 +1,16 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/images/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <HelloWorld :msg="msg" :age="age" :job="job" />
     <ul class="list">
-      <li v-for="(item, index) in list" :key="index" class="item">{{ item }}</li>
+      <li
+        v-for="(item, indexkkkkkkkkkk) in listttttttt"
+        :key="indexkkkkkkkkkk"
+        class="item-item-item-itema"
+        @click="onItem"
+      >
+        {{ item }}
+      </li>
     </ul>
   </div>
 </template>
@@ -19,8 +26,16 @@ export default defineComponent({
   },
   data() {
     return {
-      list: [0, 1],
+      msg: 'Welcome to Your Vue.js + TypeScript App',
+      age: '22',
+      job: 'projecter',
+      listttttttt: [0, 1],
     }
+  },
+  methods: {
+    onItem() {
+      //
+    },
   },
 })
 </script>
