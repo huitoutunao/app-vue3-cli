@@ -10,7 +10,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{vue,js}": "eslint --fix",
+    "*.{vue,js}": "vue-cli-service lint",
     "**/*.{vue,htm,html,css,sss,less,scss,sass}": "stylelint --fix"
   },
   "dependencies": {
