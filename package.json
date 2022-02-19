@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint:js": "vue-cli-service lint",
-    "lint:css": "stylelint **/*.{vue,htm,html,css,sss,less,scss,sass}"
+    "lint:css": "stylelint **/*.{vue,htm,html,css,sss,less,scss,sass}",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{vue,js}": "eslint --fix",
