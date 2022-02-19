@@ -43,5 +43,8 @@ export default defineComponent({
 <style lang="scss" scoped>
 .home {
   background: #fff;
+  .list {
+    background-color: #000;
+  }
 }
 </style>
