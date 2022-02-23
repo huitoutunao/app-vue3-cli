@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build:prod": "vue-cli-service build --mode prod",
+    "build:rc": "vue-cli-service build --mode rc",
     "test:unit": "vue-cli-service test:unit",
     "lint:css": "stylelint **/*.{vue,htm,html,css,sss,less,scss,sass}",
     "lint:js": "vue-cli-service lint",

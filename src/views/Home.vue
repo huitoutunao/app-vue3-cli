@@ -32,6 +32,12 @@ export default defineComponent({
       listttttttt: [0, 1],
     }
   },
+  mounted() {
+    console.log('环境变量', process.env.NODE_ENV)
+    console.log('环境变量', process.env.BASE_URL)
+    console.log('环境变量', process.env.VUE_APP_API)
+    console.log('环境变量', process.env.VUE_APP_PUBLIC_PATH)
+  },
   methods: {
     onItem() {
       //
