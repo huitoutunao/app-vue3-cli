@@ -4,8 +4,8 @@
     <HelloWorld :msg="msg" :age="age" :job="job" />
     <ul class="list">
       <li
-        v-for="(item, indexkkkkkkkkkk) in listttttttt"
-        :key="indexkkkkkkkkkk"
+        v-for="(item, kkkkkkkkkkkkkkk) in listlistlistlist"
+        :key="kkkkkkkkkkkkkkk"
         class="item-item-item-itema"
         @click="onItem"
       >
@@ -29,14 +29,8 @@ export default defineComponent({
       msg: 'Welcome to Your Vue.js + TypeScript App',
       age: '22',
       job: 'projecter',
-      listttttttt: [0, 1],
+      listlistlistlist: [0, 1],
     }
-  },
-  mounted() {
-    console.log('环境变量', process.env.NODE_ENV)
-    console.log('环境变量', process.env.BASE_URL)
-    console.log('环境变量', process.env.VUE_APP_API)
-    console.log('环境变量', process.env.VUE_APP_PUBLIC_PATH)
   },
   methods: {
     onItem() {
