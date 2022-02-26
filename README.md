@@ -13,7 +13,7 @@
 
 ### Prettier
 
-安装 `prettier` 插件时，可以遵循[官方推荐](https://github.com/vuejs/eslint-config-prettier/blob/main/README.md)配置，注意要求依赖版本满足 `eslint >= 7.28.0` 和 `prettier >= 2.0.0 `。
+安装 `prettier` 插件时，可以遵循[官方推荐](https://github.com/vuejs/eslint-config-prettier/blob/main/README.md)配置，注意要求依赖版本满足 `eslint >= 7.28.0` 和 `prettier >= 2.0.0`。
 
 ## Project setup
 ```
