@@ -1,8 +1,4 @@
-# 这里的每一行都是通过 or(或) 连接
-# 因为 ES5 限制，所以 babel 转换不了 vue3 的 proxy(ES6) 特性，详情查看链接 https://babeljs.io/docs/en/learn/#proxies
-> 1% # 市场占有率超过 1%
-Android > 5 # Android(WebView) 跟随系统版本
-iOS >= 10 # iOS 浏览器跟随系统版本
-last 2 versions # 支持所有浏览器的最近的 2 个版本
-# not ie <= 11 # 不支持低于 ie11 的浏览器
-not dead # dead 即 24 个月无官方支持或更新
+> 1%
+last 2 versions
+not dead
+not ie 11

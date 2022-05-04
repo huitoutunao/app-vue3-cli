@@ -3,10 +3,9 @@
     "stylelint-config-standard-scss",
     "stylelint-config-recommended-vue",
     "stylelint-config-recess-order",
-    "stylelint-prettier/recommended"
+    "stylelint-config-prettier-scss"
   ],
   "rules": {
-    "prettier/prettier": true,
     "max-nesting-depth": 20,
     "selector-max-id": 2,
     "color-hex-case": "lower",
