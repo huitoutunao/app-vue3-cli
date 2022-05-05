@@ -4,9 +4,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'AboutView',
+};
+</script>
+
 <style lang="scss" scoped>
 .about {
-  color: #333333;
+  color: #333;
 
   h1 {
     width: 100px;
