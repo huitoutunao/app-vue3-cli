@@ -12,7 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 .about {
-  color: #333;
+  color: #333333;
 
   h1 {
     width: 100px;
