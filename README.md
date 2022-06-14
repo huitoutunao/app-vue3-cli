@@ -1,4 +1,4 @@
-# app-vue3-cli-u
+# app-vue3-cli
 
 ## Project setup
 ```
