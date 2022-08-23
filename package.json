@@ -8,7 +8,7 @@
     "build:rc": "vue-cli-service build --mode rc",
     "test:unit": "vue-cli-service test:unit",
     "lint:js": "vue-cli-service lint",
-    "lint:css": "stylelint --fix **/*.{vue,css,scss,sass}"
+    "lint:css": "stylelint --fix ./src/**/*.{vue,css,scss,sass}"
   },
   "dependencies": {
     "core-js": "^3.8.3",

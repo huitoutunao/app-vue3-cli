@@ -1,6 +1,0 @@
-# Ignore artifacts:
-.idea
-.vscode
-node_modules
-dist
-
