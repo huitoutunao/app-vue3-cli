@@ -7,6 +7,11 @@
 <script lang="ts">
 export default {
   name: 'AboutView',
+  methods: {
+    name() {
+      console.log('ok')
+    },
+  },
 }
 </script>
 
